@@ -1,0 +1,8 @@
+c:\users\sanket\documents\visual studio 2015\Projects\SApplication\SApplication\bin\Debug\SApplication.exe.config
+c:\users\sanket\documents\visual studio 2015\Projects\SApplication\SApplication\bin\Debug\SApplication.exe
+c:\users\sanket\documents\visual studio 2015\Projects\SApplication\SApplication\bin\Debug\SApplication.pdb
+c:\users\sanket\documents\visual studio 2015\Projects\SApplication\SApplication\obj\Debug\SApplication.csprojResolveAssemblyReference.cache
+c:\users\sanket\documents\visual studio 2015\Projects\SApplication\SApplication\obj\Debug\SApplication.exe
+c:\users\sanket\documents\visual studio 2015\Projects\SApplication\SApplication\obj\Debug\SApplication.pdb
+C:\Users\Sanket\Documents\Visual Studio 2015\Projects\SApplication\SApplication\bin\Debug\NCalc.dll
+C:\Users\Sanket\Documents\Visual Studio 2015\Projects\SApplication\SApplication\bin\Debug\Tranform.Try.dll
