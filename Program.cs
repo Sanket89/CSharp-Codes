@@ -42,7 +42,7 @@ namespace SApplication
                   where v != 0
                   select v).ToList();      
             
-            string t = t1[0].ToString() + temp + t1[1].ToString();
+            string t = t1[0] + temp + t1[1];
             Expression e = new Expression(t);
             object d = e.Evaluate();      
             return Convert.ToInt32(d);
