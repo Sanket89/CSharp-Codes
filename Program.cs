@@ -37,7 +37,14 @@ namespace SApplication
         }
         int test(string temp, int[] g)
         {
-            string t = g[1] + temp + g[2];
+             List<int> t1 = new List<int>();
+            for (int i = 0; i < g.Length; i++)
+            {             
+                    t1 = (from v in g
+                             where v != 0
+                             select v).ToList();                                                  
+            }
+            string t = t1[0].ToString() + temp + t1[1].ToString();
             Expression e = new Expression(t);
             object d = e.Evaluate();      
             return Convert.ToInt32(d);
