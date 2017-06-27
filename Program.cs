@@ -25,13 +25,14 @@ namespace SApplication
           
             String pattern = @"[\*\+\-\/]";
             String temp;
+            var d = ' ';
             Program p = new Program();
             foreach (Match match in Regex.Matches(input, pattern))
             {
                 temp = match.Value;
-                var d = p.test(temp, parametersArray);
-                Console.WriteLine(d);
+                d = p.test(temp, parametersArray);               
             }
+            Console.WriteLine(d);
             //x = new int[] { Convert.ToInt32(input) };
             Console.ReadKey();
         }
